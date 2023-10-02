@@ -5,12 +5,32 @@ body {
     /* opacity: 0.5; */
 }
 
+form {
+    position: relative;
+    float: left;
+    top: 25px;
+}
+
+video {
+    position: fixed;
+    top: 400px;
+    right: 500px;
+}
+
 div.headline{
     position: fixed;
     font-size: 25px;
     top: 0px;
     margin-right: 600px;
     background-size: 30px;
+    background-color: greenyellow;
+}
+
+div.text {
+    position: fixed;
+    top: 55px;
+    margin-right: 600px;
+    font-size: 20px;
     background-color: greenyellow;
 }
 
